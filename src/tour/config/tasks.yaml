@@ -1,0 +1,14 @@
+planning_task:
+  description: >
+    วางแผนเเพ็คเกจ การท่องเที่ยว {topic} 
+  expected_output: >
+    {topic} สรุปข้อมูลแผนการท่องเที่ยว
+  agent: travel_planner
+
+local_info_task:
+  description: >
+   รวบรวมข้อมูลสถานที่ท่องเที่ยว ที่น่าสนใจ {topic}.
+  expected_output: >
+    สรุปข้อมูลสถานที่ท่องเที่ยว ที่น่าสนใจ
+  agent: local_expert
+
